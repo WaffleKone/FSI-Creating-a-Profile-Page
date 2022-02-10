@@ -27,3 +27,21 @@ She always acts as though any stranger she meets will harm her, and\
  dislikes other animals."
 dogDetails.append(dogDetailsP)
 
+let dogDetailsH3Again = document.createElement('h3')
+dogDetailsH3Again.textContent = 'Feeding Times:'
+dogDetails.append(dogDetailsH3Again)
+
+let feedingList = document.createElement('ul')
+dogDetails.append(feedingList)
+
+let feedingList1 = document.createElement('li')
+feedingList1.textContent = '9:00 am'
+feedingList.append(feedingList1)
+
+let feedingList2 = document.createElement('li')
+feedingList2.textContent = '12:00 pm'
+feedingList.append(feedingList2)
+
+let feedingList3 = document.createElement('li')
+feedingList3.textContent = '5:00 pm'
+feedingList.append(feedingList3)
