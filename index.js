@@ -24,6 +24,6 @@ dogDetailsH3.textContent = 'Description:'
 let dogDetailsP = document.createElement('p')
 dogDetailsP.textContent = "This gentle dog is aloof toward her owner, and never comes when called.\
 She always acts as though any stranger she meets will harm her, and\
-dislikes other animals."
+ dislikes other animals."
 dogDetails.append(dogDetailsP)
 
